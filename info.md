@@ -1,9 +1,7 @@
 ---
 layout: info
-title: Feeling isolated?
+title: The Absolute Choicest Drum & Bass.
 permalink: /info/
 ---
 
-<a href="http://www.nickkaye.com/" target="_blank">Nick Kaye</a>, Founder &amp; President.
-
-<p>Say <a href="mailto:hello@outrightmental.com">hello@outrightmental.com</a>.</p>
+<p>Say <a href="mailto:hello@beat.watch">hello@beat.watch</a>.</p>
