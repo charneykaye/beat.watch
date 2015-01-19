@@ -1,0 +1,7 @@
+@import "variables";
+
+@mixin auto-img {
+  width:100%;
+  height: auto;
+  vertical-align: middle;
+}

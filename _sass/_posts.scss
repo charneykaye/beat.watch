@@ -1,0 +1,99 @@
+@import "variables";
+
+// List of Posts
+ul.posts {
+  margin-top: $margin-one;
+  margin-left: 0;
+  li.post {
+    list-style-type: none;
+    .date {
+      font-family: $date-font-family;
+      font-size: 0.62em;
+      display: block;
+      width: 100%;
+      margin-bottom: -4px;
+    }
+    .title {
+      font-size: 1.38em;
+      display: block;
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .tagline {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+h2, h3 {
+  &.collate {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid $collate-section-underline-color;
+  }
+}
+
+h3.collate {
+  opacity: 0.21;
+}
+
+h2.collate {
+  opacity: 0.38;
+}
+
+.post-full {
+  p {
+    margin-top: $margin-one * 1.62;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    &.mega {
+      color: $blockquote-text-color;
+      font-family: $blockquote-font-family;
+      font-size: 2.2em;
+      text-align: center;
+    }
+  }
+  .signature {
+    text-align: right;
+    display: block;
+    width: 100%;
+    font-family: $signature-font-family;
+    font-size: 0.62em;
+    margin-bottom: $margin-one;
+  }
+  blockquote {
+    border-left-color: $grey-color;
+    color: $blockquote-text-color;
+    font-family: $blockquote-font-family;
+    letter-spacing: 0.00em;
+    font-size: 1.4em;
+  }
+  iframe {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+.pagination {
+  > li {
+    > a {
+      color: $link-color;
+      background-color: $navbar_bg_color;
+      border: 1px solid $navbar_bg_hover_color;
+      &:hover {
+        color: $link-hover-color;
+        background-color: $navbar_bg_hover_color;
+      }
+    }
+    &.disabled > {
+      a,
+      a:hover {
+        opacity: 0.38;
+        color: $link-color;
+        background-color: $navbar_bg_color;
+        border: 1px solid $navbar_bg_hover_color;
+      }
+    }
+  }
+}
