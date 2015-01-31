@@ -1,16 +1,16 @@
 ---
 layout: style
-title: Drum & Bass
-header: The Absolute Choicest Drum & Bass
+title: Indie
+header: The Absolute Choicest Indie
 group: navigation
-permalink: /drum-and-bass/
+permalink: /indie/
 ---
 {% include JB/setup %}
 
 <div class="row">
   <div class="col-xs-12">
     {% for category in site.categories %}
-      {% if category[0] == "drum-and-bass" %}
+      {% if category[0] == "indie" %}
       <ul>
         {% assign pages_list = category[1] %}
         {% include list_pages.html %}
