@@ -16,6 +16,26 @@
   }
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "base";
+/*
+ *  Import partials from `sass_dir` (defaults to `_sass`)
+ */
 
+// Config
+@import 'variables';
+
+// Global
+@import 'global';
+@import 'bootstrap';
+@import "syntax_highlighting";
+
+// Masthead
+@import 'mast';
+
+// Showcase
+@import 'showcase';
+
+// Pages
+@import 'pages';
+
+// Posts
+@import 'posts';
