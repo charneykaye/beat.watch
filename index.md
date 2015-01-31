@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Experimental
-tagline: Since Before The Internet
-description: The Absolute Choicest Drum and Bass
+title: Coming Soon
+description: The Absolute Choicest selections from the years House, Indie, Drum & Bass.
 permalink: /
 ---
 {% include JB/setup %}
